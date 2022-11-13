@@ -1,14 +1,10 @@
-
-# in a given number
-# finding a odd and even in a series
-
-numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9) # Declaring the tuple
-count_odd = 0
-count_even = 0
-for x in numbers:
-        if not x % 2:
-             count_even+=1
+givennumbers = (1, 2, 3, 4, 5, 6, 7, 8, 9)
+even = 0
+odd = 0
+for i in givennumbers:
+        if not i % 2:
+            even+=1
         else:
-             count_odd+=1
-print("Number of even numbers :",count_even)
-print("Number of odd numbers :",count_odd)
+            odd+=1
+print("Number of even numbers :",even)
+print("Number of odd numbers :",odd)
